@@ -1,0 +1,96 @@
+{
+  "menu": [
+    {
+      "url": "/admin/dashboard",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        "5"
+      ]
+    },
+    {
+      "menuHeader": "Listing"
+    },
+    {
+      "name": "Listing",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "admin/manage-listings",
+          "name": "Manage Listing",
+          "slug": "Manage-Listing"
+        },
+        {
+          "url": "admin/map",
+          "name": "Map",
+          "slug": "Map"
+        },
+        {
+          "url": "admin/add-listing",
+          "name": "Add listing",
+          "slug": "Add-listing"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Clients"
+    },
+    {
+      "name": "Clients",
+      "icon": "menu-icon tf-icons bx bx bx-dock-top",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "admin/manage-clients",
+          "name": "Manage Clients",
+          "slug": "Manage-Clients"
+        },
+        {
+          "url": "admin/add-client",
+          "name": "Add Client",
+          "slug": "Add-Client"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Users"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "ui",
+      "submenu": [
+        {
+          "url": "admin/manage-users",
+          "name": "Manage Users",
+          "slug": "Manage-Users"
+        },
+        {
+          "url": "admin/add-user",
+          "name": "Add User",
+          "slug": "Add-User"
+        },
+        {
+          "url": "admin/role",
+          "name": "Role",
+          "slug": "Role"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Appointments"
+    },
+
+    {
+      "menuHeader": "Settings"
+    },
+    {
+      "url": "admin/settings",
+      "name": "Settings",
+      "slug": "Settings"
+    }
+  ]
+}
